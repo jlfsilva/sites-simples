@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    font-family: verdana, sans-serif;
+    font-size: 100%;
+    list-style: none;
+}
+
+body {
+    background: #f5b742;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background: #2f69a2;
+    padding: 15px 0 5px 0;
+}
+
+.cabecalho img {
+    width: 180px;
+    height: 6%;
+    border-radius: 12px;
+    margin-right: 2%;
+}
+
+.preto {
+    background: #000;
+    height: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: #e6e4e4;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+section {
+    background: #f5b742;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.artigo-pequeno {
+    text-align: center;
+    font-style: italic;
+    margin: 20px auto;
+    width: 70%;
+    font-size: 10px;
+    padding: 1%;
+    border-bottom: 1px solid brown;
+    border-top: 1px solid brown
+}
+
+.artigos {
+    margin: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px 1px #000;
+}
+
+.artigos header {
+    background: #d36825;
+    border-radius: 20px 20px 0 0;
+    padding: 15px;
+
+}
+
+.artigos p {
+    padding: 20 30px;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.artigos img {
+    margin: 15px auto;
+    width: 85%;
+}
+
+@media only screen and (max-width:600px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cabecalho img {
+        margin-right: 0;
+    }
+    .artigos img {
+        display: none;
+    }
+    .artigos header {
+        text-align: center;
+    }
+    .artigo-pequeno {
+        display: none;
+    }
+
+    nav a {
+        font-size: 11px;
+        margin-left: 10px;
+    }
+    .artigos p {
+        font-weight: 500;
+    }
+}

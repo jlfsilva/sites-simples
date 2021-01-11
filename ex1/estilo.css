@@ -1,0 +1,78 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    background-repeat: no-repeat;
+    height: 635px;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    height: 100%;
+    margin-top: 100px;
+}
+
+h3 {
+    text-align: center;
+    color: #2c2e2e;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 30px;
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 160px;
+
+}
+
+.foto {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    width: 102%;
+    border-radius: 15px;
+}
+
+.foto:hover {
+    box-shadow: 1px 1px 8px 5px #ccc;
+
+}
+
+.foto:active {
+    transform: rotateY(180deg);
+}
+
+.foto .frente {
+    backface-visibility: hidden;
+    border-radius: 15px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.foto .costas {
+
+    background: #fff;
+    color: #fff;
+    text-shadow: 1px 1px 1px darkred;
+    transform: rotateY(180deg);
+    line-height: 150px;
+    text-align: center;
+    border-radius: 15px;
+    width: 99%;
+    height: 100%;
+}
+
+img {
+    width: 150px
+}

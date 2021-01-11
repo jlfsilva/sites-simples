@@ -1,0 +1,77 @@
+* {
+    font-family: verdana, sans-serif;
+}
+
+body {
+    width: 1300px;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+aside {
+    border: 2px solid #797575;
+    width: 23%;
+    float: left;
+    border-radius: 0 20px 20px 0;
+    padding: 1%;
+    margin-bottom: 1%;
+    padding-top: 46%;
+    padding-bottom: 46%;
+}
+
+aside h2 {
+    color: rgba(0, 0, 255, 0.7);
+    font-weight: 600;
+    font-size: 140%;
+    text-align: center;
+
+    font-family: arial;
+}
+
+#claro,
+#oi {
+    float: right;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    width: 70%;
+    padding: 1.5%;
+
+}
+
+#claro {
+    border: 2px solid #c61414;
+    box-shadow: 10px 10px 9px -5px #c61414;
+}
+
+#oi {
+    border: 2px solid #f7f153;
+    box-shadow: 10px 10px 9px -5px #f7f153;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+form {
+    border: 1px solid;
+    text-align: center;
+    padding: 5%;
+    border-radius: 0 20px 20px 20px;
+    top: 0;
+    clear: both;
+}
+
+footer {
+    font-family: arial;
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    padding: 0.025% 0;
+    margin-top: 1%;
+
+}

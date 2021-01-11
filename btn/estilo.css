@@ -1,0 +1,108 @@
+@keyframes pular {
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes girar {}
+
+.btns {
+    margin: auto;
+    text-align: center;
+}
+
+.style {
+    position: relative;
+    line-height: 24px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: all 400ms ease;
+    color: #ffffff;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.style1 {
+    background: #30449a;
+}
+
+.style1:before {
+    width: 0;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    transition: all 2s ease;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.style1:hover:before {
+    width: 100%;
+}
+
+.style2 {
+    background: #0e892a;
+}
+
+.style2:hover {
+    background: initial;
+    color: #0e892a;
+    box-shadow: inset 0 0 0 2px #0e892a;
+}
+
+.style3 {
+    background: #719a14;
+}
+
+.style3:hover {
+    animation: pular 1s;
+}
+
+.style4 {
+    background: #BB3A25;
+}
+
+.style4:hover {
+    transform: skew(-10deg);
+}
+
+.style5 {
+    background: #362d2d;
+    transform-style: preserve-3d;
+}
+
+.style5:after {
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    background: #3a9999;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Mudou';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.style5:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%)
+}

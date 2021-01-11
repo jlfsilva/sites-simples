@@ -1,0 +1,118 @@
+* {
+    list-style: none;
+    font-family: verdana, sans-serif;
+    text-decoration: none;
+}
+body {
+    margin: 0 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header>nav {
+    float: right;
+    padding: 0 2%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+ul>li {
+    margin: 7px;
+}
+ul li a {
+    box-sizing: border-box;
+    color: #0099ff;
+    background: initial;
+    border: 1.5px solid #0099ff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10pt;
+}
+ul li a:hover {
+    background: #0099ff;
+    color: #fff;
+}
+section {
+    clear: both;
+}
+.cinza {
+    background: #eae8e8;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #4b4b4b;
+}
+figcaption {
+    text-align: center;
+    font-size: 11pt;
+}
+aside {
+    width: 42%;
+    text-align: justify;
+}
+h1 {
+    font-size: 15pt;
+    text-align: center;
+}
+aside h1 {
+    padding: 0;
+    margin: 0;
+}
+.cinza img {
+    border-radius: 15px;
+}
+#caixa-articles {
+    color: #4b4b4b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: justify;
+    align-items: center;
+}
+#caixa-articles>article {
+    box-shadow: 2px 2px 8px 1px #3c3b3b;
+    width: 25%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    margin-left:
+}
+#caixa-articles>article>img {
+    width: 98%;
+}
+footer {
+    background: #3c3939;
+    padding: 1%;
+    color: #b9b9b9;
+    font-size: 10pt;
+    text-align: center;
+}
+@media only screen and (max-width:600px) {
+    header>nav {
+        float: left;
+        top: 0;
+        left: 0;
+    }
+    ul li a {
+        border: 0px solid;
+        font-size: 9pt;
+    }
+    #maranhao {
+        display: none;
+    }
+    #caixa-articles {
+        display: flex;
+        flex-direction: column;
+    }
+    #caixa-articles>article {
+        width: 80%;
+    }
+}

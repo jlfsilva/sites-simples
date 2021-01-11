@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <img src="img/logo.png">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="esporte.html">Esporte</a>
+            <a href="video.html">Video</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main class="contato">
+
+        <form method="post" action="">
+
+            <h2>Dúvidas ou sugestões</h2>
+            <fieldset>
+                <legend>
+                    <p> Mande uma mensagem para nós</p>
+                </legend>
+
+                <input type="text" id="nome" placeholder="Seu nome" maxlength="80" required autofocus>
+                <br>
+                <input type="email" id="email" placeholder="Seu email" required><br> Joga futsal?:
+                <input type="radio" name="rsim" id="tSim" required>
+                <label for="tSim">Sim</label>
+                <input type="radio" name="rsim" id="tNao">
+                <label for="tNao">Não</label><br>
+                <fieldset class="motivo">
+                    <legend>Motivo(s) do contato:</legend><br>
+
+                    <input type="checkbox" value="reclamação" id="rReclamacao">
+                    <label for="rReclamacao">Reclamação</label>
+
+                    <input type="checkbox" value="elogio" id="rElogio">
+                    <label for="rElogio">Elogio</label>
+
+                    <input type="checkbox" value="duvidas" id="rDuvidas">
+                    <label for="rDuvidas">Dúvidas</label><br></fieldset>
+
+                <label for="estado">Estado civil:</label>
+                <select id="estado">
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="viuvo">Viúvo</option>
+                </select><br>
+                <textarea rows="10" cols="60" placeholder="Mensagem"></textarea><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="limpar">
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <small>&copy Todos os direitos reservados 2018 - José Luis - RGM n°1945484/8</small>
+    </footer>
+</body>
+
+</html>

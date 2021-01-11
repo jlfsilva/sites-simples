@@ -1,0 +1,269 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'open sans', sans-serif;
+    font font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+h2 {
+    font-size: 26px;
+}
+
+/*CABEÇALHO*/
+
+.logo a {
+    padding-top: 20px;
+    width: 200px;
+    height: 100px;
+    float: left;
+    background: url(img/logo.png);
+    font-size: 0;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 8%;
+    background-color: #13c7ae;
+    /*background-image: url(img/fundocabecalho.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cabecalho form {
+    padding-top: 50px;
+    width: 30%;
+
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    height: 45px;
+    float: left;
+    padding: 10px 15px;
+    color: #696969;
+    border-radius: 12px 0 0 12px;
+}
+
+.cabecalho button {
+    width: 15%;
+    height: 45px;
+    float: right;
+    padding: 10px 15px;
+    /*background: url(img/lupa.png) no-repeat;*/
+    background-color: #0cae98;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 0 12px 12px 0;
+
+}
+
+/*MENU*/
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 10px 8%;
+
+}
+
+.menu li {
+    margin-right: 10px;
+    float: right;
+    font-size: 18px;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+
+/*SOCIALICONS*/
+
+.icones {
+    font-size: 24px;
+    float: right;
+}
+
+.icones a {
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+
+
+
+.btnfacebook:hover {
+    color: #3f51b5
+}
+
+.btntwitter:hover {
+    color: #03a9f4;
+}
+
+.btninstagram:hover {
+    color: #9b07ad;
+}
+
+/*SOBRE NÓS*/
+
+.principal {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+.sobre {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+
+}
+
+.sobre h2 {
+    text-align: justify;
+    margin-bottom: 15px;
+    margin left: 10%;
+
+}
+
+.sobre img {
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+/*ONDE ESTAMOS*/
+
+.onde {
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.onde h2 {
+    margin-bottom: 10px;
+
+}
+
+.onde li {
+    margin-bottom: 10px;
+}
+
+.onde i {
+    margin-right: 10px;
+}
+
+.onde img {
+    width: 100%;
+    float: inherit;
+    border-radius: 5px;
+    margin: 20px 0px;
+
+}
+
+/*dUVIDAS*/
+
+.duvidas {
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.duvidas h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    ;
+}
+
+.duvidas p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.duvidas form {
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.duvidas form input {
+    width: 40%;
+    margin: 10px;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: initial;
+}
+
+.duvidas textarea {
+    margin: 10px;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: initial;
+}
+
+.duvidas button {
+    width: 15%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 13%;
+    padding 15px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+/*RODAPE*/
+
+.footer {
+
+    padding: 25px 8%;
+    background-color: #13c7ae;
+
+}
+
+.footer p {
+
+    margin-left: 35%;
+    color: #fff;
+}
+
+body {
+    overflow-x: hidden;
+}
